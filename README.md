@@ -7,8 +7,6 @@ This repository provides the Pytorch code for the work "Riemannian Representatio
 
 <img src="Manifold.jpg" width="50%">
 
-The experiments are implemented by using Pytorch, and run on a PC equipped with a NVIDIA RTX 3090 24G RAM GPU and 3.20GHz CPU.
-
 #### Dataset folder
 The folder structure required (e.g OfficeHome)
 - data
@@ -31,6 +29,7 @@ python demo.py --dataset officehome --source Art Product Real --target Clipart -
 python demo.py --dataset officehome --source Art Product Real --target Clipart --phase train --gpu 0 --net resnet --steps 200000 --start_update_step 2000 --update_interval 2000 --message "Riemannian Representation Learning" --patience 45 --lr 0.01 --lr_mult 0.1 0.1 1 1 
 ```
 
+The experiments are implemented by using Pytorch, and run on a PC equipped with a NVIDIA RTX 3090 24G RAM GPU and 3.20GHz CPU.
 
 For more details of this multi-source domain adaptation approach,  please refer to the following PR work: 
 
