@@ -7,10 +7,7 @@ This repository provides the Pytorch code for the work "Riemannian Representatio
 
 <img src="Manifold.jpg" width="50%">
 
-##### Tested on
-* Python 3.8
-* PyTorch 1.11.0
-* CUDA 11.4
+The experiments are implemented by using Pytorch, and run on a PC equipped with a NVIDIA RTX 3090 24G RAM GPU and 3.20GHz CPU.
 
 #### Dataset folder
 The folder structure required (e.g OfficeHome)
